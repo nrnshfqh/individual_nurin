@@ -1,0 +1,55 @@
+body {
+	background-image: linear-gradient(rgb(0,0,0,0.1),rgb(0,0,0,0.1)),url(backgroundd.jpg);
+	background-attachment: fixed;
+	background-size: cover;
+	background-position: center;
+}
+body {
+	margin: 0px;
+	border: 0px;
+	padding-top: 70px;
+}
+#navbar {
+	padding: 10px;
+	margin: 30px;
+	width: 95%;
+	height: 30px;
+	background-color: rgb(255, 230, 230, 0.5);
+	color: white;
+	position: fixed; 
+	top: 0;
+}
+#linkref {
+	color: white;
+	text-decoration: none;
+	padding: 50px;
+}
+body {
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+.slider{
+	width: 400px;
+	height: 400px;
+	attachment: fixed;
+	background: url(backgroundd.png);
+	margin: 100px auto;
+	animation: slide 40s infinite;
+}
+@keyframes slide{
+	25%{
+	background: url(2.png);
+	}
+	50%{
+	background: url(3.png);
+	}
+	75%{
+	background: url(1.png);
+	}
+	100%{
+	background: url(4.png);
+	}
+	125%{
+	background: url(5.png);
+	}

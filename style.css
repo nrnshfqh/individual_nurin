@@ -1,0 +1,57 @@
+body {
+	background-image: linear-gradient(rgb(0,0,0,0.1),rgb(0,0,0,0.1)),url(backgroundd.jpg);
+	background-attachment: fixed;
+	background-size: cover;
+	background-position: center;
+}
+.p{
+	float: right;
+	border-radius: 0px;
+	margin: 10px;
+	width: 270px;
+	height: auto;
+	color: rgb(255, 230, 230);
+}
+body {
+	margin: 0px;
+	border: 0px;
+	padding-top: 70px;
+}
+#navbar {
+	padding: 10px;
+	margin: 30px;
+	width: 95%;
+	height: 30px;
+	background-color: rgb(255, 230, 230, 0.5);
+	color: white;
+	position: fixed; 
+	top: 0;
+}
+#linkref {
+	color: white;
+	text-decoration: none;
+	padding: 50px;
+}
+body {
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+.slider{
+	width: 500px;
+	height: 300px;
+	attachment: fixed;
+	background: url(background.jpg);
+	margin: 100px auto;
+	animation: slide 20s infinite;
+}
+@keyframes slide{
+	25%{
+	background: url(welcomee.png);
+	}
+	50%{
+	background: url(beyonce.png);
+	}
+	75%{
+	background: url(covidd.png);
+	}
